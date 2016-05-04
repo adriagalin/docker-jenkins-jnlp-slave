@@ -12,8 +12,9 @@ See [Jenkins Distributed builds](https://wiki.jenkins-ci.org/display/JENKINS/Dis
 Contains:
 
 -	Java
-- Make
+-	Make
 -	Docker
+-	Docker compose
 
 Running
 -------
@@ -46,4 +47,3 @@ optional environment variables:
 -	`JENKINS_TUNNEL`: (`HOST:PORT`) connect to this slave host and port instead of Jenkins server, assuming this one do route TCP traffic to Jenkins master. Useful when when Jenkins runs behind a load balancer, reverse proxy, etc.
 
 **Based on [`jenkinsci/jnlp-slave`](https://hub.docker.com/r/jenkinsci/jnlp-slave/)**
-
