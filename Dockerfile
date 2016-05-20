@@ -14,11 +14,6 @@ RUN curl -sSL -o /tmp/docker-${DOCKER_VERSION}.tgz https://get.docker.com/builds
     && rm /tmp/docker-${DOCKER_VERSION}.tgz \
     && chmod -R +x /usr/local/bin/docker
 
-    RUN curl -sSL -o /tmp/docker-${DOCKER_VERSION}.tgz https://get.docker.com/builds/Linux/x86_64/docker-${DOCKER_VERSION}.tgz \
-        && tar xzf /tmp/docker-${DOCKER_VERSION}.tgz -C / \
-        && rm /tmp/docker-${DOCKER_VERSION}.tgz \
-        && chmod -R +x /usr/local/bin/docker
-
 RUN curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-Linux-x86_64 > /usr/local/bin/docker-compose \
     && chmod +x /usr/local/bin/docker-compose
 
