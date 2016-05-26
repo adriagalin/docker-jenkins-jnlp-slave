@@ -1,3 +1,9 @@
+1.3 (release date: 2016-05-26)
+------------------------------
+
+-	Added kubectl client
+-	Changed curl command.
+
 1.2.2 (release date: 2016-05-20)
 --------------------------------
 

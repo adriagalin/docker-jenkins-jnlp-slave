@@ -15,6 +15,7 @@ Contains:
 -	Make
 -	Docker
 -	Docker compose
+-	Kubectl
 
 Running
 -------
