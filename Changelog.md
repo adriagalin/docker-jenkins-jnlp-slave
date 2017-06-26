@@ -1,3 +1,10 @@
+1.4 (release date: 2017-06-26)
+------------------------------
+
+-	Update docker version to 17.04.0-ce
+-	Update docker compose version to 1.14.0
+-	Update kubectl version to 1.6.6
+
 1.3 (release date: 2016-05-26)
 ------------------------------
 
