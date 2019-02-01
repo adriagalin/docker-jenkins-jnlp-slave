@@ -1,3 +1,8 @@
+1.5 (release date: xxxx-xx-xx)
+
+-      Update renamed base image
+-      Update Java to JDK11
+
 1.4 (release date: 2017-06-26)
 ------------------------------
 

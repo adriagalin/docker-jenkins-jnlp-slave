@@ -1,4 +1,4 @@
-FROM jenkinsci/jnlp-slave
+FROM jenkins/jnlp-slave:latest-jdk11
 MAINTAINER Adria Galin <@adriagalin>
 
 ENV DOCKER_VERSION=17.04.0-ce DOCKER_COMPOSE_VERSION=1.14.0 KUBECTL_VERSION=v1.6.6
